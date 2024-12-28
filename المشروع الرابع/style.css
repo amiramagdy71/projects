@@ -1,0 +1,472 @@
+*{
+    padding: 0%;
+    margin: 0%;
+ }
+ body{
+     width: 100%;
+     height: 100vh;
+   
+ }
+
+ header{
+    background-color: rgb(255, 255, 255);
+    height: 69px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 108%;
+    
+ 
+ }
+ 
+
+
+ .amira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .title{
+    margin-right:320px;
+
+  }
+
+  .title h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    align-items: center;
+    margin-left: 50%;
+  }
+
+  .icons nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 80%;
+      
+  }
+
+  .icons nav ul li{
+    text-transform: capitalize;
+     text-transform: uppercase;
+    list-style: none;
+       }
+
+
+  .icons nav ul li a{
+    color: rgb(0, 0, 0);
+
+    font-size: 17px;
+    text-decoration: none;
+    margin : 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+  .icons nav ul li a:hover{
+    background-color: rgb(170, 199, 231);
+    color: rgb(122, 153, 189);
+      font-size: 15px;
+      text-decoration: none;
+      margin: 5px;
+      padding: 5px;
+  border-radius: 10px;}
+
+
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-btn {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fff;
+  }
+  
+  .post-job-btn {
+    background-color: #194f1c;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:  rgb(90, 113, 188);
+       }
+
+
+
+
+
+
+       .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+      }
+      
+      .hero-content {
+        max-width: 50%;
+      }
+      
+      .hero-content h1 {
+        font-size: 36px;
+        margin: 0 0 20px;
+        color: #000000;
+      }
+      
+      .hero-content p {
+        font-size: 16px;
+        color: #000000;
+      }
+      
+      .search-bar {
+        display: flex;
+        margin: 20px 0;
+      }
+      
+      .search-bar input,
+      .search-bar select {
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .search-bar button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .search-bar button:hover {
+        background-color: #45a049;
+      }
+      
+      .popular-searches a {
+        color: #4caf50;
+        text-decoration: none;
+        margin-right: 5px;
+      }
+      
+      .popular-searches a:hover {
+        text-decoration: underline;
+      }
+      
+      .trusted-brands {
+        margin-top: 30px;
+        color: #000000;
+      }
+
+      .brands{
+        margin-top: 5%;
+        display: flex;
+         
+      }
+
+      .brands .amiralkvl{
+        margin-left: 2%;
+        
+
+      }
+
+      .brands .dfdvd{
+        margin-left: 2%;
+
+
+      }
+
+      .brands .iudsufi{
+        margin-left: 2%;
+
+
+      }
+      
+      .trusted-brands p {
+        font-size: 14px;
+        color: #000000;
+      }
+
+      .brands i{
+        color:#4caf50;
+      }
+      
+       
+      .overlay-content {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      
+      .job-alert {
+        background-color: #fff;
+        padding: 10px 15px;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .candidates {
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .candidate-images img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+
+
+
+
+      .imgee{
+        width: 600px;
+        height: 400px;
+           overflow: hidden;  
+           margin-top: 1%;
+      }
+
+
+      .imgee:hover{
+        overflow: hidden;
+      }
+
+      .card{
+        display: flex;
+      }
+
+      .imyty{
+        background-color: aliceblue;
+        width: 150px;
+        height: 140px;
+         overflow: hidden;  
+         margin-top: 3%;
+          margin-bottom: 3%;
+          margin-left: 7%;
+          
+        }
+
+
+         
+ 
+          
+
+
+
+          .cardes{
+            margin-top: 2%;
+            margin-left: 10%;
+            display: flex;
+             
+          }
+
+          .card{
+            background-color: rgb(152, 167, 215);
+            width: 400px;
+            position: relative;
+             padding: 20px;
+             text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+             margin-left: 5%;
+          }
+
+
+          .part1uy{
+            margin-top: 7%;
+            margin-left: 2%;
+            color: #ffffff;
+          }
+
+          .part1uy p{
+            margin-top: 5%;
+
+          }
+
+
+          .part1uy button{
+            background-color: #2e3951;
+            margin-top: 5%;
+            width: 120px;
+            height: 40px;
+            border-radius: 10px;
+            color: #ffffff;
+             
+          }
+
+
+          .part98394{
+            margin-top: 5%;
+          }
+
+
+          .cardes2{
+            margin-top: 5%;
+            display: flex;
+            height: 200px;
+          }
+
+
+          .lckdfjgrei{
+            margin-left: 15%;
+            margin-left: 6%;
+
+
+
+          }
+
+          .lckdfjgrei h2{
+            font-size: 15px;
+            color: #c3d5df;
+            margin-top: 1%;
+ 
+          }
+
+          .lasted h2{
+            font-size: 15px;
+            color: #c3d5df;
+            margin-top: 1%;
+          }
+
+          .card1{
+            background-color:  rgb(90, 113, 188);
+            width: 180px;
+            position: relative;
+             padding: 20px;
+             text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-left: 6%;
+
+ 
+          }
+
+          .card1 h1{
+            margin-top: 3%;
+            font-size: 20px;
+            color: #ffffff;
+           }
+
+           .card1 h2{
+            font-size: 15px;
+            color: #d9e7f1;
+            margin-top: 4%;
+           }
+
+           .card1 p{
+            font-size: 15px;
+            color: #dcf0fb;
+            margin-top: 4%;
+
+           }
+           .card1 i{
+            color: #ffffff;
+            }
+
+
+           .card1 i:hover{
+             font-size: 30px;
+            }
+
+
+            .footer{
+              margin-top: 6%;
+              display: flex;
+             }
+
+
+            .cardes3{
+              margin-top: 2%;
+            display: flex;
+            margin-left: 10%;
+  
+ 
+
+            }
+
+
+
+            .card3{
+              background-color:  rgb(255, 255, 255);
+              width: 400px;
+              position: relative;
+               padding: 20px;
+               text-align: center;
+              border-radius: 10px;
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+              margin-left: 6%;
+              border: 3px solid rgb(55, 137, 245);
+
+
+  
+   
+
+            }
+
+            .jhihjk{
+              display: flex;
+              
+            }
+
+
+            .jhihjk h1{
+              font-size: 15px;
+              margin-left: 10%;
+            }
+
+            .jhihjk i{
+              margin-top: 4%;
+              color: #f51111;
+              font-size: 23px;
+            }
+
+            .jhihjk i:hover{
+              background-color: #e7eef8;
+              font-size: 30px;
+
+            }
+
+
+
+            .ihyikhinj button{
+              margin-top: 5%;
+              color: #3d75ca;
+              background-color: #c5d5f7;
+              width: 120px;
+              height: 29px;
+              border-radius: 5px;
+              margin-right: 5%;
+ 
+
+            }
+
+            .card3 h4{
+              margin-top: 4%;
+              margin-right: 30%;
+            }
+
+
+            .lasted{
+              margin-left: 13%;
+              margin-top: 9%;
+            }
+  
